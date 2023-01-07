@@ -2,4 +2,5 @@
 
 ### Practice
 
-- 1/7 : Strategy Pattern 
+- [x] Strategy Pattern : 1/7
+- [ ] Observer Pattern : 1/7

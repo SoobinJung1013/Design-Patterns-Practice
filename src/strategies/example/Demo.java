@@ -1,6 +1,6 @@
 package strategies.example;
 
-import strategy.example.order.Order;
+import strategies.example.order.Order;
 import strategies.example.strategies.PayByCreditCard;
 import strategies.example.strategies.PayByPayPal;
 import strategies.example.strategies.PayStrategy;
