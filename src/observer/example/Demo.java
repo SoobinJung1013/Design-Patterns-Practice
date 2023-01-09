@@ -1,10 +1,8 @@
 package observer.example;
 
 import observer.example.editor.Editor;
-import observer.example.editor.NewEditor;
 import observer.example.listeners.EmailNotificationListener;
 import observer.example.listeners.LogOpenListener;
-import observer.example.listeners.UserListener;
 
 public class Demo {
     public static void main(String[] args) {
@@ -21,15 +19,5 @@ public class Demo {
             e.printStackTrace();
         }
 
-        NewEditor newsEditor = new NewEditor();
-        newsEditor.events.subscribe("food", new UserListener());
-        newsEditor.events.subscribe("movie", new UserListener());
-
-        try {
-            newsEditor.movieNews();
-            newsEditor.foodNews();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 }
