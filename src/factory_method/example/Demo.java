@@ -11,6 +11,7 @@ import javax.swing.*;
 
 public class Demo {
     private static Dialog dialog;
+//    private static Button button;
 
     public static void main(String[] args) {
         configure();
@@ -24,8 +25,18 @@ public class Demo {
             dialog = new HtmlDialog();
         }
     }
+//    static void configure() {
+//        if (System.getProperty("os.name").equals("Mac OS X")) {
+//            button = new WindowsButton();
+//        } else {
+//            button = new HtmlButton();
+//        }
+//    }
 
     static void runBusinessLogic() {
         dialog.renderWindow();
     }
+//    static void runBusinessLogic() {
+//        button.render();
+//    }
 }
