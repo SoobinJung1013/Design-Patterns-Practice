@@ -8,4 +8,5 @@
 - [x] Factory Pattern : 1/9
 - [x] Abstract Factory Pattern : 1/10
 - [x] Singleton Pattern : 1/10
-- [ ] Command Pattern : 1/14
+- [x] Command Pattern : 1/14
+- [x] Adapter Pattern : 1/14 
