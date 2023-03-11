@@ -1,5 +1,7 @@
 package template_method.example.networks;
 
+import iterator.example.profile.Profile;
+
 public class Facebook extends Network {
     public Facebook(String userName, String password) {
         this.userName = userName;
@@ -45,4 +47,5 @@ public class Facebook extends Network {
             ex.printStackTrace();
         }
     }
+
 }
